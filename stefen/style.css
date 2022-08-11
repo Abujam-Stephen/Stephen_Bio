@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================= Fonts ================= */
+.my-font {
+    font-family: 'Gill Sans', sans-serif;
+    color: tomato;
+}
+
+/* ================= Navbar Section ================= */
+.navbar {
+    background-color: #333;
+    min-height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green; */
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list > .nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+.nav-link.active {
+    border-bottom: 4px solid salmon;
+}
+
+.nav-link:hover {
+    border-bottom: 4px solid salmon;
+}
+
+/* ================= First Section ================= */
+.intro-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-side {
+ text-align: center;    
+}
+
+.heading-one {
+    font-size: 2rem;
+}
+
+.heading-two {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.qualification {
+    margin-bottom: 30px;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+}
+
+.btn-link:hover {
+    background-color: #333;
+    color: white;
+    transition: .6s ease-in-out;
+}
